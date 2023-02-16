@@ -33,6 +33,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
+import CodeBlock from "@ckeditor/ckeditor5-code-block";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -47,6 +48,7 @@ ClassicEditor.builtinPlugins = [
 	BlockQuote,
 	CKBox,
 	CKFinder,
+	CodeBlock,
 	CloudServices,
 	EasyImage,
 	Heading,
@@ -84,6 +86,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'uploadImage',
 			'blockQuote',
+			'codeBlock',
 			'insertTable',
 			'mediaEmbed',
 			'undo',
