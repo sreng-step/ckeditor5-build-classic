@@ -16,6 +16,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKBox from '@ckeditor/ckeditor5-ckbox/src/ckbox';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import CodeBlock from "@ckeditor/ckeditor5-code-block/src/codeblock";
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
@@ -56,6 +57,7 @@ ClassicEditor.builtinPlugins = [
 	BlockQuote,
 	CKBox,
 	CKFinder,
+	Code,
 	CodeBlock,
 	CloudServices,
 	EasyImage,
@@ -105,6 +107,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'uploadImage',
 			'blockQuote',
+			'code',
 			'codeBlock',
 			'insertTable',
 			'mediaEmbed',
